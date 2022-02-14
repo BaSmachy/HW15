@@ -2,8 +2,8 @@ package com.company;
 
 public class Person {
      private String name;
-     private String Designastion;
-     private String Profession;
+     private String Designastion; //designation => with lower case
+     private String Profession; // profession => with lower case
 
     public Person() {
     }
@@ -46,4 +46,6 @@ public class Person {
     public void eat(){
         System.out.printf("Eat");
     }
+     
+     //missed toString()
 }
