@@ -1,7 +1,7 @@
 package com.company;
 
 public class Programmer extends Person{
-    private String ComponyName;
+    private String ComponyName; // write with lowercase => companyName
 
 
     public Programmer() {
